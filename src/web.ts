@@ -3,7 +3,7 @@ import { GoogleAuthPlugin } from './definitions';
 import { User, Authentication } from './user';
 
 // @ts-ignore
-import config from '../../../../../capacitor.config.json';
+import config from '../../../../../../../../../packages/person/capacitor.config.json';
 
 export class GoogleAuthWeb extends WebPlugin implements GoogleAuthPlugin {
 
